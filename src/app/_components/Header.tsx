@@ -16,10 +16,6 @@ const Header = ({ setSidebarToggle } : HeaderProps) => {
           width={100}
           height={80}
         />
-        {/* <h2 className="hidden md:flex gap-2 items-center border rounded-full p-2 px-10 bg-slate-200">
-          <LayoutGrid className="h-5 w-5" />
-          Category
-        </h2> */}
         <Menu className="block md:hidden w-10 h-8 cursor-pointer" onClick={()=>setSidebarToggle(prev => !prev)}/>
         <div className="md:flex gap-3 items-center border rounded-full p-2 px-5 hidden">
           <Search color="grey" />
