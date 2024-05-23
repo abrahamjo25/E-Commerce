@@ -1,3 +1,4 @@
+import { Plus } from "lucide-react";
 import React, { useState } from "react";
 
 interface Item {
@@ -67,7 +68,7 @@ const App: React.FC = () => {
               className="bg-blue-500 text-white px-4 py-2 rounded-md"
               onClick={() => addToCart(item)}
             >
-              Add to Cart
+            <Plus/>  Add to Cart
             </button>
           </div>
         ))}
